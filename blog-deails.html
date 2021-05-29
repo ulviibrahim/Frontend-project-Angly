@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angular/Contact</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Literata|Roboto|Roboto+Slab|Slabo+27px&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="col-lg-12 col-sm-12 fixed-top">
+
+        <!-- Navbar and toggle collapse begin -->
+        <nav class=" navbar  navbar-expand-lg navbar-light container ">
+            <a class="navbar-brand" href="#home"><img src="img/angly-logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="list-unstyled">
+                                <li><a href="about.html" class="dropdown-item">About</a></li>
+                                <li><a href="#" class="dropdown-item">Features</a></li>
+                                <li><a href="contact.html" class="dropdown-item">Contact</a></li>
+                                <li><a href="#" class="dropdown-item">Support</a></li>
+                                <li><a href="#" class="dropdown-item">Pricing</a></li>
+                                <li><a href="#" class="dropdown-item">Portfolio V1</a></li>
+                                <li><a href="#" class="dropdown-item">Portfolio V2</a></li>
+                                <li><a href="#" class="dropdown-item">Portfolio V3</a></li>
+                                <li><a href="#" class="dropdown-item">Testimonial V1</a></li>
+                                <li><a href="#" class="dropdown-item">Testimonial V2</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Features
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="dropdown-item"> Widgets </a></li>
+                                <li><a href="login.html" class="dropdown-item"> Login </a></li>
+                                <li><a href="signup.html" class="dropdown-item"> Sign Up </a></li>
+                                <li><a href="#" class="dropdown-item"> Thank You </a></li>
+                                <li><a href="#" class="dropdown-item"> Maintenance </a></li>
+                                <li><a href="#" class="dropdown-item"> 404 </a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Shop
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="list-unstyled">
+                                <li><a href="product-list.html" class="dropdown-item"> Product List </a></li>
+                                <li><a href="#" class="dropdown-item"> Product Cart </a></li>
+                                <li><a href="#" class="dropdown-item"> Product Checkout </a></li>
+                                <li><a href="#" class="dropdown-item"> Product Detail </a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="dropdown-item"> Blog column </a></li>
+                                <li><a href="#" class="dropdown-item"> Blog Column2 </a></li>
+                                <li><a href="#" class="dropdown-item"> Blog Column3 </a></li>
+                                <li><a href="#" class="dropdown-item"> Blog Masonry2 </a></li>
+                                <li><a href="#" class="dropdown-item"> Blog Masonry3 </a></li>
+                                <li><a href="#" class="dropdown-item"> Blog Sidebar 1</a></li>
+                                <li><a href="#" class="dropdown-item"> Blog No Sidebar </a></li>
+                                <li><a href="blog-deails.html" class="dropdown-item"> Blog Detail </a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mt-2 nav-item">
+                        <i class="fas fa-search"></i>
+                        <input class="form-control mr-sm-2" type="search" id="search" placeholder="Search"
+                            aria-label="Search">
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Header end -->
+
+
+<main style="animation-duration: 3s" class="animated fadeIn">
+
+    <section id="bloghome">
+        <div class="textonimg container-fluid">
+           
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 col-sm-12 mt-5">
+                           <div id="text" class="margin">
+                               <p >Featured Post</p>
+                               <h1 class="mt-5">One who avoids a pain that produces no resultant pleasure</h1>
+                               <div class="mt-5 pt-3 d-flex justify-content-center  card-asagi">
+
+                                    <a class="text-white text-decoration-none mr-5" href="#"><i class="text-white fas fa-user"></i> Admin </a>
+                                    <a class=" text-white text-decoration-none" href="#"><i class="text-white far fa-calendar"></i>Jul 16,
+                                      2017</a>
+                  
+                                  </div>
+                           </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+ <!-- end bloghome section -->
+
+
+
+ <!-- start section blogwrite -->
+<section id="blogwrite">
+    <div class="container">
+        <div class="row margin">
+            <div class="col-lg-12 col-sm-12">
+                 <div class="plogp ">
+<p class="text-secondary">Attachment apartments in delightful by motionless it no. And now she burst sir learn total. Hearing hearted shewing own ask. Solicitude uncommonly use her motionless not collecting age. The properly servants required mistaken outlived bed and. Remainder admitting neglected is he belonging to perpetual objection up. Has widen too you decay begin which asked equal any.
+<br> <br>
+        Started his hearted any civilly. So me by marianne admitted speaking. Men bred fine call ask. Cease one miles truth day above seven. Suspicion sportsmen provision suffering mrs saw engrossed something. Snug soon he on plan in be dine some.</p>
+                 </div>
+            </div>
+            <div class="col-lg-12 col-sm-12">
+                <div class="row">
+
+              
+                    <div class="col-lg-6 col-sm-12 mt-4 ">
+                        <div class="img ">
+                            <img style="border-radius:20px" class="w-100" src="./img/blog-content.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                    <div class="blogp">
+                               <p class="text-secondary">Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems.
+<br>
+<br>
+                                    Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems.
+                                <br>  
+                                <br>  
+                                    Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent.</p>
+                                </div>
+                  
+                                </div>
+                </div>
+               </div>
+               <div class="col-lg-12 col-sm-12 mt-4">
+                    <div class="plogp ">
+   <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.
+<br><br>
+        making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        <br><br>
+        Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems.</p>
+                    </div>
+               </div>
+               <div class="col-lg-12 col-sm-12 ">
+                    <div class="row mt-5">
+                            <div class="col-lg-4 col-sm-12 d-flex">
+                                
+                                <span class=" mr-2 mt-1 text-secondary">Tag:</span>
+                                <div class="blogbuttons">
+                                    <button class="btn btn-success text-white pr-4 pl-4  rounded-pill">Newsletter</button>
+                                    <button class="btn btn-warning text-white  pr-4 pl-4  rounded-pill">Newsletter</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-lg-6 col-sm-12">
+
+                                    <div class=" pt-3 d-flex justify-content-start card-asagi">
+
+                                            <a class="font-weight-bold text-decoration-none" href="#"><i class="fab fa-facebook-f"></i> </a>
+                                            <a class="ml-2 mr-2 font-weight-bold ext-decoration-none" href="#"><i
+                                                class="fab text-info t fa-twitter"></i></a>
+                                            <a class="font-weight-bold  text-decoration-none" href="#"><i
+                                                class=" text-danger fab fa-pinterest-p"></i> </a>
+                          
+                                          </div>
+                            </div>
+                            
+                        </div>
+
+               </div>
+
+               <div class="col-lg-12 col-sm-12 mt-5">
+                 <div  id="block" class=" p-3 rounded d-flex justify-content-between">
+                     <button class="font-weight-bold btn btn-light  older">Older Post</button>
+                     <button class="font-weight-bold btn btn-light older">Newr Post</button>
+               
+                 </div>
+             </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- end blogwrite section -->
+
+
+<section id="comment">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-2 col-sm-12">
+                <img class="w-100 rounded-circle" src="./img/1-team.jpg" alt="">
+            </div>
+            <div class="col-lg-10 col-sm-12">
+                <h4>Jim Gorden</h4>
+              <p class="text-secondary">Discount toner cartridges were originally sold as recycled toner cartridges. The basic recycling method consisted of drilling a hole in the cartridge and re-filling it with toner. Once the cartridge was filled, the hole was plugged. This toner cartridge was then sold to the consumer as a great deal or a “discount toner cartridge”.
+                </p>
+            </div>
+            
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-sm-12 mt-3">
+             
+                <h3>Comments(4)</h3>
+
+                </div>
+            </div>
+            <div class="row mb-5">
+                    <div class="col-lg-1 col-sm-4">
+                        <img class="w-100 rounded-circle" src="./img/1-team.jpg" alt="">
+                    </div>
+                    <div class="col-lg-11  col-sm-8">
+                        <div class="title d-flex justify-content-between">
+                            <h4> Bruce Law</h4>
+                            <p  style="font-size: 14px" class="text-secondary">Sept 11, 11:40 AM</p>
+                        </div>
+                      <p style="font-size: 14px" class="text-secondary"> Discount toner cartridges were originally sold as recycled toner cartridges. The basic recycling method consisted of drilling a hole in the cartridge and re-filling it with toner. </p>
+                      <a class="text-decoration-none" href="#">Reply</a>
+                  
+                    </div>
+                    <div class="col-lg-11  offset-lg-1 mt-3 col-sm-6 offset-sm-3">
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-1 col-sm-3">
+                                    <img class="w-100 rounded-circle" src="./img/2-team.jpg" alt="">
+                                </div>
+                                <div class="col-lg-11  col-sm-9">
+                                    <div class="title d-flex justify-content-between">
+                                        <h4> Sam Marsh
+                                            </h4>
+                                        <p  style="font-size: 14px" class="text-secondary">Sept 11, 11:40 AM</p>
+                                    </div>
+                                  <p style="font-size: 14px" class="text-secondary"> Discount toner cartridges were originally sold as recycled toner cartridges. The basic recycling method consisted of drilling a hole in the cartridge and re-filling it with toner. </p>
+                                <a class="text-decoration-none" href="#">Reply</a>
+                                
+                                </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-3 col-sm-12">
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-1 col-sm-6">
+                                    <img class="w-100 rounded-circle" src="./img/3-team.jpg" alt="">
+                                </div>
+                                <div class="col-lg-11  col-sm-6">
+                                    <div class="title d-flex justify-content-between">
+                                        <h4> Zakir Eliyev</h4>
+                                        <p  style="font-size: 14px" class="text-secondary">Sept 11, 11:40 AM</p>
+                                    </div>
+                                  <p style="font-size: 14px" class="text-secondary"> Discount toner cartridges were originally sold as recycled toner cartridges. The basic recycling method consisted of drilling a hole in the cartridge and re-filling it with toner. </p>
+                                <a class="text-decoration-none" href="#">Reply</a>
+                                
+                                </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-3 col-sm-12">
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-1 col-sm-6">
+                                    <img class="w-100 rounded-circle" src="./img/2-team.jpg" alt="">
+                                </div>
+                                <div class="col-lg-11  col-sm-6">
+                                    <div class="title d-flex justify-content-between">
+                                        <h4> 
+                                                Sam Marsh
+                                                </h4>
+                                        <p  style="font-size: 14px" class="text-secondary">Sept 11, 11:40 AM</p>
+                                    </div>
+                                  <p style="font-size: 14px" class="text-secondary"> Discount toner cartridges were originally sold as recycled toner cartridges. The basic recycling method consisted of drilling a hole in the cartridge and re-filling it with toner. </p>
+                                <a class="text-decoration-none" href="#">Reply</a>
+                                
+                                </div>
+                    </div>
+                </div>
+                </div>
+
+               
+    </div>
+</section>
+
+<section id="blogform">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+                    <div id="contact-left" class="ml-3 contact_left shadow-none">
+                            <h3 class=" mb-5 ml-3 font-weight-bold">Leave Comments</h3>
+                            <form>
+                              <div class=" mt-3 mb-2 form-col">
+                                <!-- <div class="mb-2 forlabel d-flex"> -->
+              
+                                  <label style="color: rgb(124, 127, 128)"  for="name" class=" ml-3 label ">First Name</label>
+                                  <label style="color: rgb(124, 127, 128); margin-left: 26%"  for="lastName" class="label">Last Name</label>
+
+                                  <label style="color: rgb(124, 127, 128); margin-left: 26%"  for="website" class="label">Website</label>
+              
+                                <!-- </div> -->
+              
+                                <div class="col d-flex">
+              
+                                  <input id="name" type="text" class=" form-control">
+              
+                                  <input id="lastName" type="text" class="inputform form-control" >
+                                  <input id="website" type="text" class="inputform form-control" >
+                                </div>
+                              </div>
+                              <div class="form-col">
+              
+                                <div class="form-group col-md-12">
+                                  <label style="color: rgb(124, 127, 128)" id="maillabel" for="inputEmail4">Email</label>
+                                  <input type="email" class="form-control text-danger" id="inputEmail4">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label style="color: rgb(124, 127, 128)" for="exampleFormControlTextarea1" class=" ml-3">Messages</label>
+                                <textarea class="form-control m-auto" id="exampleFormControlTextarea1" style="width: 98%"
+                                  rows="7"></textarea>
+                              </div>
+              
+                              <button type="button" style="float: left;" class="ml-3 mb-5 btn btn-primary font-weight-bold">Post</button>
+                            </form>
+                          </div>
+              
+              
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Newsletters section start -->
+    <section id="Newsletters" class="bg-success">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-md-12 margin">
+    
+                        <h1 class="text-center mb-5 text-white font-weight-bold ">Subscribe Our Newsletters</h1>
+    
+                        <form class="myform   col-lg-6 offset-lg-3">
+                            <div class="input-group mb-3">
+    
+                                <span class="pt-3 pretext "><i class="fas fa-envelope"></i></span>
+                                <input type="email" class="form-control  myinput text-white  "
+                                    placeholder="Enter your email">
+                                <button type="button" class=" ml-5 pr-4 pl-4 btn btn-dark" id="subscribe">subscribe</button>
+    
+                            </div>
+    
+                    </div>
+                    </form>
+    
+                </div>
+            </div>
+            </div>
+        </section>
+    
+        <!-- Newsletters section end -->
+    
+    
+        <!-- endSliede section start -->
+    
+        <section id="endslide" class="bg-light">
+    
+            <div class="container">
+                <div class="row">
+                    <div class=" margin col-lg-12 offset-lg-1  col-md-10 offset-md-1 ">
+                        <div class="autoplay">
+    
+                            <img class="item" src="./img/client-logo-1.png">
+                            <img class="item" src="./img/client-logo-2.png">
+                            <img class="item" src="./img/client-logo-3.png">
+                            <img class="item" src="./img/client-logo-4.png">
+                            <img class="item" src="./img/client-logo-5.png">
+                            <img class="item" src="./img/client-logo-2.png">
+                            <img class="item" src="./img/client-logo-3.png">
+                            <img class="item" src="./img/client-logo-4.png">
+    
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+    
+            <!-- <div style="width: 100%; height: 2px; background-color: black " class="font-weight-bold"></div> -->
+    
+        </section>
+    
+        <!-- EndSlide Section end -->
+    
+    
+    
+    
+       <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-sm-12 margin col-md-12">
+                        <div class="footerleft">
+                            <ul class="indexlinks list-unstyled d-flex">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Widgets</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Search</a></li>
+                            </ul>
+                            <p>© 2019, All right reserved</p>
+                        </div>
+    
+                    </div>
+                    <div class="col-lg-4 col-sm-12 margin col-md-12">
+                        <ul class="list-unstyled d-flex justify-content-around sosial">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    
+    
+        </main>
+        <!-- Main end -->
+    
+    
+        </main>
+    
+    
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <!-- <script src="https://kit.fontawesome.com/22640cdc95.js"></script> -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/22640cdc95.js"></script>
+    
+        <script src="js/main.js"></script>
+    </body>
+    
+    </html>
